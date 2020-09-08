@@ -1,0 +1,14 @@
+
+.entry-title {
+    font-size: x-large;
+}
+
+.entry-title-container {
+    margin-bottom: 5px;
+    flex-grow: 0;
+}
+
+.entry-content-container {
+    overflow: scroll;
+    flex-grow: 1;
+}

@@ -1,0 +1,26 @@
+
+body {
+  background-color: white;
+}
+
+.viewport {
+  width: 90vw;
+  height: 90vh;
+
+  position: relative;
+  top: 5vh;
+  left: 5vw;
+
+  border-radius: 20px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.virtual-viewport {
+  width: 270vw;
+  height: 270vh;
+
+  position: relative;
+  top: -90vh;
+  left: -90vw;
+}
