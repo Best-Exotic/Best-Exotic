@@ -1,26 +1,15 @@
 
-body {
-  background-color: white;
-}
+.App {
+    width: 96vw;
+    height: 96vh;
 
-.viewport {
-  width: 90vw;
-  height: 90vh;
+    position: relative;
+    top: 2vh;
+    left: 2vw;
 
-  position: relative;
-  top: 5vh;
-  left: 5vw;
+    background-color: white;
 
-  border-radius: 20px;
-  background-color: white;
-  overflow: hidden;
-}
-
-.virtual-viewport {
-  width: 270vw;
-  height: 270vh;
-
-  position: relative;
-  top: -90vh;
-  left: -90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
 }
