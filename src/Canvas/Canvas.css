@@ -1,0 +1,17 @@
+.viewport {
+    flex-grow: 1;
+
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+    background-color: gray;
+}
+
+.virtual-viewport {
+    width: 300vw;
+    height: 300vh;
+
+    position: relative;
+    top: -100vh;
+    left: -100vw;
+}
