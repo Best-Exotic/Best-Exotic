@@ -1,5 +1,6 @@
 .viewport {
     flex-grow: 3;
+    position: relative;
 
     border-radius: 20px;
     background-color: white;

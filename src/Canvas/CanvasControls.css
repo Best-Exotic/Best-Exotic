@@ -1,0 +1,29 @@
+.canvas-controls {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.canvas-control-button {
+    flex-grow: 0;
+    width: 50px;
+    height: 50px;
+
+    margin: 5px;
+    border-radius: 25px;
+    background-color: white;
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.canvas-zoom-in {
+    background-image: url("zoom-in.svg");
+}
+
+.canvas-zoom-out {
+    background-image: url("zoom-out.svg");
+}
