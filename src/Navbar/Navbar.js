@@ -1,4 +1,6 @@
 import React, {useState} from 'react'
+import './Navbar.css'
+import Chika from './chika.jpg'
 import Searchbar from "./Searchbar";
 import NavIndex from "./NavIndex";
 
@@ -8,7 +10,7 @@ export default (props) => {
 
     return (
         <div className={"Navbar"}>
-            <div className={"glyph"} />
+            <img src={Chika} alt={"chika"} style={{width:"15vw", height:"15vw", borderRadius:"18px", marginBottom: "5px"}}/>
             <Searchbar setLinks={setLinks} />
             <NavIndex links={links} />
         </div>

@@ -13,3 +13,7 @@
     justify-content: space-between;
     align-items: stretch;
 }
+
+.App > div {
+    margin: 3px;
+}

@@ -1,0 +1,20 @@
+
+.Dock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    flex-grow: 0;
+    flex-basis: 30px;
+
+    background-color: darkgrey;
+    border-radius: 18px;
+}
+
+.dock-applet-link {
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    background-color: grey;
+    flex-grow: 0;
+}
