@@ -8,3 +8,5 @@ export default {
 }
 
 export const Primary = () => <Box width={"150px"} height={"200px"} />
+
+export const Draggable = () => <Box width={"150px"} height={"200px"} drag/>
