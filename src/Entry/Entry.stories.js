@@ -44,5 +44,16 @@ Did gyre and gimble in the wabe:\n
     And the mome raths outgrabe.\n
 `
 
+const stack = [
+    {
+        title: "Foo",
+        content: "walalalalalalalalalalalalala"
+    },
+    {
+        title: "Thing",
+        content: "Shall I compare thee ot a summer's day? No, thought art more lovely and more temperate."
+    }
+]
 
-    export const Primary = () => <Entry title={title}>{content}</Entry>
+
+    export const Primary = () => <Entry title={title} content={content} stack={stack} />

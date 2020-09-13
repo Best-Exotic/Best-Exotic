@@ -12,3 +12,33 @@
     overflow: scroll;
     flex-grow: 1;
 }
+
+.spaced-repetition-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: gray;
+
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+.Stack {
+    position: absolute;
+    top: 485px;
+    padding: 0;
+    margin: 0;
+}
+
+.stack-item {
+    padding: 0;
+    margin: 0;
+    height: 20px;
+    width: 300px;
+}
+
+.stack-title {
+    margin: 0;
+    font-weight: bold;
+}
