@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import Box from "../Box/Box";
+import Box from "../../core/Box/Box";
 import './Entry.css'
 
 /*
