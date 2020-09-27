@@ -11,7 +11,7 @@ content: a string value with the content of the article
 children: JSX that is rendered inside the article after 'content'
 stack: a list of the names of the entries under the current one in the stack
  */
-export default (props) => {
+const Entry = (props) => {
 
     const [title, setTitle] = useState(props.title)
     const [content, setContent] = useState(props.content)
@@ -42,11 +42,12 @@ export default (props) => {
                 { content }
                 { children }
             </div>
-
             <Stack stack={stack} promote={promoteStackEntry} />
         </Box>
     )
 }
+
+export default Entry
 
 // stack as a separate component for readability
 const Stack = (props) => {
